@@ -40,7 +40,7 @@ jobs:
 
   # Deployment job
   deploy: https://github.com/magician8206/magician82464.github.io#magician82464githubio
-    environment:
+    environment: https://github.com/magician8206/magician82464.github.io#magician82464githubio
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
